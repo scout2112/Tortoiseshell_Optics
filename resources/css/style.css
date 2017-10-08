@@ -57,6 +57,11 @@ html {
   padding: 1rem 2rem;
 }
 
+.caption {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .caption h2 {
   padding: 1.5rem 5rem;
   text-transform: uppercase;
@@ -65,4 +70,135 @@ html {
   font-weight: bold;
   background-color: white;
   margin-top: 10rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons .container {
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  margin: 3rem;
+  justify-content: center;
+}
+
+.exams {
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exams img {
+  width: 3.5rem;
+  max-height: 100%;
+}
+
+.exams p {
+  padding-bottom: 0rem;
+}
+
+.fittings {
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.fittings img {
+  max-width: 100%;
+}
+
+.fittings p {
+  margin-bottom: 0;
+}
+
+.delivery {
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.delivery img {
+  max-width: 100%;
+}
+
+.delivery p {
+  margin-bottom: 0;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.about .container {
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  justify-content: space-around;
+}
+
+.container .philosophy {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.heading p {
+  padding-left: 1.25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: cadetblue;
+  color: white;
+  text-transform: uppercase;
+  width: 35%;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.container .appointments {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  width: 35%;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  background-color: azure;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.footer img {
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-right: 1rem;
 }
