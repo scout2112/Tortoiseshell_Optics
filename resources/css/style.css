@@ -155,23 +155,15 @@ html {
   flex-direction: row;
   width: 960px;
   justify-content: space-around;
-  border: 1px solid black;
 }
 
 .container .philosophy {
   display: flex;
   flex-direction: column;
   width: 35%;
-  border: 1px solid black;
 }
 
 .heading {
-  margin: 0;
-  border: 1px solid black;
-  padding: 0;
-}
-
-.heading p {
   padding-left: 1.25rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -179,11 +171,12 @@ html {
   color: white;
   text-transform: uppercase;
   width: 10rem;
-  border: 1px solid black;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-.paragraph p {
-  border: 1px solid black;
+.paragraph {
+  margin: 0;
 }
 
 .container .appointments {
@@ -191,8 +184,6 @@ html {
   flex-direction: column;
   margin-right: 5%;
   width: 35%;
-  justify-content: flex-start;
-  border: 1px solid black;
 }
 
 .footer {
