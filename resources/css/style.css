@@ -162,15 +162,14 @@ html {
   display: flex;
   flex-direction: row;
   width: 960px;
-  justify-content: space-around;
-  border: 1px solid black;
+  justify-content: flex-start;
 }
 
 .container .philosophy {
   display: flex;
   flex-direction: column;
   width: 35%;
-  border: 1px solid black;
+  margin-left: 7rem;
 }
 
 .heading {
@@ -192,9 +191,8 @@ html {
 .container .appointments {
   display: flex;
   flex-direction: column;
-  margin-right: 5%;
+  margin-left: 5%;
   width: 35%;
-  border: 1px solid black;
 }
 
 .footer {
