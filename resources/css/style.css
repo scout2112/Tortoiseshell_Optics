@@ -4,15 +4,20 @@ html {
   font-family: helvetica;
 }
 
+body {
+  margin: 0;
+}
+
 .banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   background-repeat: no-repeat;
   height: 30rem;
-  width: auto;
+  width: 100%;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-position: center;
 }
 
 .banner .container {
@@ -228,12 +233,13 @@ html {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
     background-repeat: no-repeat;
     height: 22rem;
-    width: auto;
+    width: 100%;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
+    background-position: center;
   }
 
   .banner .container {
