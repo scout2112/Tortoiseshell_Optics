@@ -319,14 +319,22 @@ body {
       background-position: 20%;
     }
 
+    .banner .container {
+      width: 100%;
+    }
+
     .container .navigation {
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       background-color: cadetblue;
       width: 100%;
       margin: 0;
+    }
+
+    .navigation {
+      overflow: hidden;
     }
 
     .navigation img {
